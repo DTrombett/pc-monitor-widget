@@ -1,0 +1,21 @@
+{
+	"name": "pc-monitor-widget",
+	"private": true,
+	"type": "module",
+	"main": "src/index.ts",
+	"scripts": {
+		"start": "node .",
+		"test": "tsc"
+	},
+	"dependencies": {
+		"discord-api-types": "^0.38.49",
+		"systeminformation": "^5.31.17"
+	},
+	"devDependencies": {
+		"@tsconfig/node-ts": "^23.6.4",
+		"@tsconfig/node24": "^24.0.4",
+		"@tsconfig/strictest": "^2.0.8",
+		"@types/node": "^26.1.1",
+		"typescript": "^6.0.3"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"include": ["src"],
+	"extends": ["@tsconfig/strictest", "@tsconfig/node24", "@tsconfig/node-ts"],
+	"compilerOptions": {
+		"noEmit": true,
+		"types": ["node"]
+	}
+}

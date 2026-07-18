@@ -1,0 +1,173 @@
+{
+	"_type": "discord_widget_config",
+	"surfaces": {
+		"widget_bottom": {
+			"layout": "widget_bottom_stats",
+			"components": {
+				"stat_5": {
+					"fields": {
+						"value": {
+							"value_type": "data",
+							"presentation_type": "text",
+							"value": "battery"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Battery"
+						}
+					}
+				},
+				"stat_1": {
+					"fields": {
+						"value": {
+							"value_type": "data",
+							"presentation_type": "text",
+							"value": "cpu"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "CPU"
+						}
+					}
+				},
+				"stat_3": {
+					"fields": {
+						"value": {
+							"value_type": "data",
+							"presentation_type": "text",
+							"value": "disk"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Disk 0 (C:)"
+						}
+					}
+				},
+				"stat_2": {
+					"fields": {
+						"value": {
+							"value_type": "data",
+							"presentation_type": "text",
+							"value": "memory"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Memory"
+						}
+					}
+				},
+				"stat_4": {
+					"fields": {
+						"value": {
+							"value_type": "data",
+							"presentation_type": "text",
+							"value": "gpu"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "GPU — NVIDIA GeForce MX350"
+						}
+					}
+				},
+				"stat_6": {
+					"fields": {
+						"value": {
+							"value_type": "data",
+							"presentation_type": "duration",
+							"value": "uptime"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Uptime"
+						}
+					}
+				}
+			}
+		},
+		"add_widget_preview": {
+			"layout": "add_widget_preview_contained",
+			"components": {
+				"contained_image": {
+					"fields": {
+						"image": {
+							"value_type": "application_asset",
+							"presentation_type": "image",
+							"value": "1784027857773"
+						}
+					}
+				}
+			}
+		},
+		"widget_top": {
+			"layout": "widget_top_contained",
+			"components": {
+				"subtitle_2": {
+					"fields": {
+						"text": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "16.0 GB DDR4"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Memory"
+						}
+					}
+				},
+				"title": {
+					"fields": {
+						"text": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Acer Aspire A515-56G"
+						}
+					}
+				},
+				"subtitle_1": {
+					"fields": {
+						"text": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Intel® Core™ i7-1165G7"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "CPU"
+						}
+					}
+				},
+				"subtitle_3": {
+					"fields": {
+						"text": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "1.00 TB SSD"
+						},
+						"label": {
+							"value_type": "custom_string",
+							"presentation_type": "text",
+							"value": "Disk"
+						}
+					}
+				},
+				"contained_image": {
+					"fields": {
+						"image": {
+							"value_type": "application_asset",
+							"presentation_type": "image",
+							"value": "1784027857773"
+						}
+					}
+				}
+			}
+		}
+	}
+}
