@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"discord-api-types": "^0.38.49",
-		"systeminformation": "^5.31.17"
+		"systeminformation": "^5.33.16"
 	},
 	"devDependencies": {
 		"@tsconfig/node-ts": "^23.6.4",
